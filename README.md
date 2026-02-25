@@ -1,13 +1,9 @@
 ## LinkFlow
 
 LinkFlow 是一个面向私有化部署的 **AI 搜索与智能体问答系统**：前端交互参考 Perplexica 的 UI/交互模式，后端基于 MiroFlow 的工具化智能体思路进行增强，通过统一的工具接口编排 Web 搜索、信息抽取、文档阅读等能力，形成“可控、可扩展、可观测”的智能体工作流。
-演示视频：
 
-https://github.com/user-attachments/assets/b26cfda9-9bb4-42a1-a31c-653e713c5716
+![Uploading 2EWXrU5g_converted.gif…]()
 
-
-
-![Demo](https://github.com/user-attachments/assets/e439e3d4-5fa6-4d3d-bbcf-c6c575ac3e1c)
 
 ---
 
@@ -19,7 +15,7 @@ https://github.com/user-attachments/assets/b26cfda9-9bb4-42a1-a31c-653e713c5716
   - 解决了“控制台一次性输出”难以支撑 Chat 产品的问题  
   - 让智能体真正具备连续对话的上下文与状态
 
-### 2) 流式输出适配（Streaming）
+### 2) 流式输出适配
 - 将智能体执行过程拆成事件流回传（SSE/NDJSON 形式均可适配）  
 - 前端可以边跑边展示：检索进度、工具调用进度、答案生成进度  
 - 避免等待全流程结束后一次性输出，体验更接近真实聊天产品
