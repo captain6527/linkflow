@@ -54,3 +54,7 @@ uvicorn api_server:app --host 0.0.0.0 --port 8000
 cd ..
 npm run dev
 ```
+
+## 致谢
+前端交互参考与部分实现基于：Perplexica
+智能体与工具编排能力基于：MiroFlow
