@@ -56,5 +56,5 @@ npm run dev
 ```
 
 ## 致谢
-前端交互参考与部分实现基于：Perplexica
-智能体与工具编排能力基于：MiroFlow
+- 前端交互参考与部分实现基于：Perplexica
+- 智能体与工具编排能力基于：MiroFlow
